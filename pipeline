@@ -1,0 +1,9 @@
+Agent: 
+    Chat History   ---> LLM
+    Tools          ---> LLM
+Database: 
+    LLM -- (action) --> dtbase
+    dtbase -- (feedback) --> LLM
+User:
+    User -- (message) --> LLM
+    LLM -- (response) --> User
